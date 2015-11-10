@@ -3,6 +3,14 @@
 testing
 
 <script>
-    alert('yes!');
+    
+    var firstRow = window.parent.document.getElementById("table").rows[0];
+    var rowName = firstRow.cells[0].outerText;
+    var rowNum = firstRow.cells[1].outerText;
+
+    console.log(firstRow);
+    console.log(rowName);
+    console.log(rowNum);
+
 </script>
 </html>
