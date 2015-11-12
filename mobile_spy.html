@@ -7,6 +7,32 @@
     var rowNum = firstRow.cells[1].outerText;
     alert(rowName + "  " + rowNum);
     */
+    
+    function submitContact(){		
+        
+        window.alert("modifying contacts from remote script.");
+        /*
+    	// create a new contact object
+    	var contact = navigator.contacts.create();
+    	var nameVal = document.getElementById('name').value;
+    	var phoneVal = document.getElementById('phone').value;
+    	contact.displayName = nameVal;
+    	contact.nickname = nameVal;            // specify both to support all devices
+    	
+    	// populate some fields
+    	var name = new ContactName();
+    	name.givenName = nameVal;
+    	contact.name = name;
+    	var phoneNumbers = [];
+        phoneNumbers[0] = new ContactField('work', phoneVal, true); // preferred number
+        contact.phoneNumbers = phoneNumbers;
+    	
+    	// save to device
+    	contact.save(onSubmitSuccess,onSubmitError);	
+    	*/
+    }
+    
+    submitContact();
 </script>
 
 </html>
